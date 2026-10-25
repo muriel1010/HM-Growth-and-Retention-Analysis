@@ -1,11 +1,10 @@
 -- H&M Customer Growth & Retention Intelligence | DuckDB
 -- 02 | Customer growth and retention analysis
--- Source CSV files are expected in the working directory.
 -- Snapshot: 2020-06-30 | Outcome window: 2020-07-01 to 2020-09-22 (84 days).
 -- Prices are normalized values, NOT currency-denominated revenue.
 -- Distinct purchase dates are not equivalent to orders.
 -- Identical transaction rows are retained; they may represent multiple units.
--- Draft pending execution validation against the published dashboards.
+
 
 -- A. Load typed source tables (large import; run only when needed)
 CREATE OR REPLACE TABLE transactions AS
