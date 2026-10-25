@@ -1,12 +1,7 @@
 -- H&M Customer Growth & Retention Intelligence
 -- 01 | Data quality audit (DuckDB)
--- Source: H&M Personalized Fashion Recommendations dataset.
--- Run from a directory containing transactions_train.csv, customers.csv, articles.csv,
--- or replace the relative paths below with your own local locations.
--- Read source columns as text for reliable validation before type conversion.
--- This script is read-only: it does not modify or deduplicate source data.
 
--- 1. Source volume, customer IDs, date validity, and price validity
+
 WITH tx AS (
     SELECT *, TRY_CAST(t_dat AS DATE) AS parsed_date,
            TRY_CAST(price AS DOUBLE) AS numeric_price
