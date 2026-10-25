@@ -1,6 +1,6 @@
 # H&M Customer Growth & Retention Intelligence
 
-An SQL and Power BI portfolio case study exploring customer purchase behavior, historical value concentration, and observed 84-day return patterns in the public H&M Personalized Fashion Recommendations dataset.
+A SQL and Power BI portfolio case study exploring customer purchase behavior, historical value concentration, and observed 84-day return patterns in the public H&M Personalized Fashion Recommendations dataset.
 
 ## Business questions
 
