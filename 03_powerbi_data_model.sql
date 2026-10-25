@@ -1,9 +1,6 @@
 -- H&M Customer Growth & Retention Intelligence | DuckDB
 -- 03 | Power BI reporting model
--- Run after 02_customer_growth_retention_analysis.sql.
--- Output CSVs are written to the DuckDB working directory.
--- Channel IDs are kept as codes; do not assume online vs. store.
--- Draft pending execution validation against the published dashboards.
+-- Channel IDs are kept as codes; we do not assume online vs. store.
 
 CREATE OR REPLACE TABLE pbi_customer_snapshot AS
 
